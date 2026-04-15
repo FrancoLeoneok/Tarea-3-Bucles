@@ -97,7 +97,7 @@ console.log("Personas de cada genero:");
 console.log(`Total de usuarios: ${userGenders}`);
 
 for (const [gender, count] of Object.entries(userGenders)) {        //object.entries convierte el objeto en sucesión de pares clave-valor.
-    const percentage = ((count / users.length) * 100).toFixed(3);    //toFixed(2) para limitar el número de decimales
+    const percentage = ((count / users.length) * 100).toFixed(2);    //toFixed(2) para limitar el número de decimales
     console.log(`${gender}: ${count} usuarios (${percentage}%)`);     
 }
 
