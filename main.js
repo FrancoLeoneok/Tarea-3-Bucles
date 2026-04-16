@@ -78,7 +78,7 @@ while (continueSearching) {
     }
 
     const answer = prompt("¿Buscar otro usuario? (s/n)").toLowerCase();  //toLowerCase para convertir la respuesta a minúscula
-    continueSearching = (answer === "s");  //agregar "si"
+    continueSearching = (answer === "s" || answer === "si");  //agregar "si"
 }
 console.log("Busqueda Finalizada.")
 
