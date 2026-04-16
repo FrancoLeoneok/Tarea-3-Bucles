@@ -71,7 +71,7 @@ while (continueSearching) {
         console.log(`last name: ${usuarioFound.last_name}`);
         console.log(`email: ${usuarioFound.email}`);
         console.log(`gender: ${usuarioFound.gender}`);
-        console.log(`ip_address: *************`);
+        console.log(`ip_address: *************`);  // buscar metodo para no hardcodear
     } else {
         alert(`El usuario con ID ${idSought} no se encuentra.`); 
         console.log(`El usuario con ID ${idSought} no se encontro.`);
